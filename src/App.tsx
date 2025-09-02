@@ -9,7 +9,8 @@ import React from 'react'
 // import KeyTracker from './components/KeyTracker'
 // import ScrollToSection from './components/ScrollToSection'
 // import LoginForm from './components/Bai8'
-import { LanguageProvider, LanguageDemo } from './components/LanguageContext';
+// import { LanguageProvider, LanguageDemo } from './components/LanguageContext';
+import OptimizedItemList from './components/Bai10'
 
 
 export default function App() {
@@ -26,9 +27,10 @@ export default function App() {
     {/* <KeyTracker /> */}
     {/* <ScrollToSection /> */}
     {/* <LoginForm /> */}
-    <LanguageProvider>
+    {/* <LanguageProvider>
       <LanguageDemo />
-    </LanguageProvider>
+    </LanguageProvider> */}
+    <OptimizedItemList /> 
     </div>
   )
 }
